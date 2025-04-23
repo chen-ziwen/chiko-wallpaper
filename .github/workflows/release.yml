@@ -5,6 +5,10 @@ on:
       - main
     paths:
       - 'package.json'
+      - 'electron-builder.yml'
+      - 'electron.vite.config.ts'
+      - 'src/**'
+      - 'resources/**'
 
 jobs:
   create-release:
